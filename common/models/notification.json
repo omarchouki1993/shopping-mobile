@@ -1,0 +1,42 @@
+{
+  "name": "Notification",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "message": {
+      "type": "string",
+      "required": true
+    },
+    "avatar": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "number",
+      "required": true
+    },
+    "read": {
+      "type": "boolean",
+      "required": true
+    },
+    "sender": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "utilisateur": {
+      "type": "belongsTo",
+      "model": "Utilisateur",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
