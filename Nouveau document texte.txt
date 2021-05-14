@@ -1,0 +1,64 @@
+{
+"title" : "jaket",
+"price" : 20,
+"description" : "lorem ipsum dolor sit amet consecteteur elit",
+"category" : "vetements",
+"pictures" : ["6099e40774b46b15a49d66c2","6099e4169176f4209cbf4353","6099e426316aed1d7859edbe","6099e431e946e406902e21e2"],
+"averagestar" : 4,
+"state" : "Disponible",
+"city" : "Londres", 
+"createdAt" : "1559554985661",
+"utilisateurId" : "6099cad6c0ad4938e8c8891f",
+"owner" : "mohamed"
+"availability" : {
+	"available" : true,
+	"type" : "Livraison",
+	"feed" : 5
+   }
+
+}
+
+{
+"title" : "maquillage",
+"price" : 15,
+"description" : "lorem ipsum dolor sit amet consecteteur elit",
+"category" : "mode & accesoire ",
+"pictures" : string ["6099e4df92de6129c8447a3e","6099e4ea7da67c3e98f818ec","6099e4f81c671305342143a9","6099e5028e1c1d158076b2fb"],
+"averagestar" : 3,
+"state" : "Disponible",
+"city" : "kinshasa", 
+"createdAt" : "1559555279784",
+"utilisateurId" : "6099cad6c0ad4938e8c8891f",
+"owner" : "mohamed"
+"availability" : {
+	"available" : true,
+	"type" : "en magasin",
+	"adress" : 5
+   }
+
+}
+
+
+
+
+
+
+
+
+{
+  "title": "jaket",
+  "price": 20,
+  "description": "lorem ipsum dolor sit amet consecteteur",
+  "category": "vetements",
+  "pictures": [  "6099e40774b46b15a49d66c2","6099e4169176f4209cbf4353","6099e426316aed1d7859edbe","6099e431e946e406902e21e2"
+  ],
+  "averageStar": 4,
+  "state": "Disponible",
+  "city": "Londres",
+  "createdAt": 1559554985661,
+  "owner": "mohamed",
+  "availability": {"available" : true,
+	"type" : "Livraison",
+	"feed" : 5},
+  "utilisateurId": "6099cad6c0ad4938e8c8891f"
+}

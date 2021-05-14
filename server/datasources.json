@@ -14,12 +14,19 @@
     "connector": "mongodb"
   },
   "local-storage": {
+    
+    "name": "local-storage",
+    "connector": "loopback-component-storage-gridfs",
     "host": "localhost",
     "port": 27017,
     "database": "ShoppingDB",
     "username": "",
-    "password": "",
-    "name": "local-storage",
-    "connector": "loopback-component-storage-gridfs"
+    "password": ""
+
+
+    
+
+
+   
   }
 }
